@@ -51,10 +51,10 @@ class TaxaCartao(models.Model):
 
 
 class ConfigLoja(models.Model):
-    whatsapp = models.CharField(max_length=20, default='5583999999999', help_text='Só números, com 55 + DDD')
-    telefone = models.CharField(max_length=30, default='(83) 99999-9999')
-    endereco = models.CharField(max_length=200, default='Patos - PB')
-    horario = models.CharField(max_length=120, default='Seg a Sex, 8h às 18h')
+    whatsapp = models.CharField(max_length=20, default='5583981405953', help_text='Só números, com 55 + DDD')
+    telefone = models.CharField(max_length=30, default='(83) 981405953')
+    endereco = models.CharField(max_length=200, default='Rua Bossuet Wanderley, 53 - Centro, Patos - PB')
+    horario = models.CharField(max_length=120, default='Seg a Sex, 8h às 18h, Sáb 8h às 12h')
 
     def __str__(self):
         return 'Dados da loja'
